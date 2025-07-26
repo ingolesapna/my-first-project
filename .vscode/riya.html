@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 50px;
+      transition: background-color 0.3s ease;
+    }
+    .emoji-btn {
+      font-size: 40px;
+      margin: 10px;
+      cursor: pointer;
+    }
+    #message {
+      margin-top: 30px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    #reset {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+
+</head>
+<body>
+      <h1>Emoji Mood Switcher</h1>
+
+ <div class="Emoji button">
+  <div>
+    <span class="emoji-btn" data-mood="happy">😊</span>
+    <span class="emoji-btn" data-mood="sad">😢</span>
+    <span class="emoji-btn" data-mood="angry">😠</span>
+    <span class="emoji-btn" data-mood="sleepy">😴</span>
+  </div>
+ </div>
+  <div class="massage button">
+  <p id="message"></p>
+  </div>
+  <div class="reset button">
+  <button id="reset">Reset</button>
+  </div>
+   <script src="riya.js"></script>
+</body>
+</html>

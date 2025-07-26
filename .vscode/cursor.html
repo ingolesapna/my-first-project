@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: #333;
+        }
+        input{
+            display: block;
+            margin: 10px;
+        }
+        .card{
+            width: 300px;
+            height: 300px;
+            overflow: hidden;
+            padding: 30px;
+            background-color: transparent;
+            border: 2px solid #efefef;
+            border-radius: 10px;
+        }
+        .profile{
+            background-color: aqua;
+            border-radius: 100px;
+            height: 50px;
+            width: 50px;
+            overflow: hidden;
+            object-fit: contain;
+        }
+        .profile img{
+            width: 100px;
+            height: 100px;
+        }
+        .card h3{ 
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        .card h5{
+            margin-top: 7px;
+            margin-bottom: 3px;
+        }
+        .card p{
+            font-size: 12px;
+            font-weight: 400;
+            margin-top: 12px;
+            text-wrap: inherit;
+        }
+        .cursore{
+            background-color: red;
+            width: 20px;
+            height: 20px;
+            border-radius: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cursore">
+
+    </div>
+    <form>
+        <input type="text" name="profilepic_url">
+        <input type="text" name="name">
+        <input type="text" name="position">
+        <input type="text" name="description">
+
+        <input type="submit">
+        <div class="card">
+            <div class="profile">
+                
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFns-rvzQJdg1L0OU7Rmzp1PG_Q4pyMBoupw&s">
+            </div>
+            <h3>sapna ingole</h3>
+            <h5>web developer</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, cumque non facere tenetur dignissimos doloremque, inventore delectus consectetur enim iste minus adipisci! Rerum, a. Dicta incidunt impedit quibusdam consectetur sunt.</p>
+        </div>
+        </div>
+    </form>
+
+
+
+
+
+   <script src="script 2.js"></script> 
+</body>
+</html>
